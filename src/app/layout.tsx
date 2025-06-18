@@ -31,7 +31,7 @@ export default function RootLayout({
         suppressHydrationWarning={true}
       >
         <Navbar />
-        <main className="min-h-screen">
+        <main className="min-h-screen animate-fade-in-up">
           {children}
         </main>
         <Footer />

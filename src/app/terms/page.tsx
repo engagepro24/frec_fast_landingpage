@@ -4,8 +4,8 @@ export default function Terms() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-purple-600 to-purple-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Terms & Conditions</h1>
-          <p className="text-xl text-purple-100 max-w-3xl mx-auto">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in-up animate-delay-100">Terms & Conditions</h1>
+          <p className="text-xl text-purple-100 max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
             Please read these terms and conditions carefully before using our service.
           </p>
         </div>
@@ -15,7 +15,7 @@ export default function Terms() {
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up animate-delay-300">
               <p className="text-gray-600 mb-6">
                 <strong>Last updated:</strong> {new Date().toLocaleDateString()}
               </p>
@@ -24,21 +24,21 @@ export default function Terms() {
               </p>
             </div>
 
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up animate-delay-400">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">1. Acceptance of Terms</h2>
               <p className="text-gray-600 mb-4">
                 By using our service, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree to these Terms, you must not use our service.
               </p>
             </div>
 
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up animate-delay-500">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">2. Service Description</h2>
               <p className="text-gray-600 mb-4">
                 Frec provides a technology platform that connects riders with independent drivers who provide transportation services. We do not provide transportation services ourselves.
               </p>
             </div>
 
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up animate-delay-600">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">3. User Accounts</h2>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">3.1 Account Creation</h3>
               <p className="text-gray-600 mb-4">
@@ -51,23 +51,23 @@ export default function Terms() {
               </p>
             </div>
 
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up animate-delay-700">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">4. User Conduct</h2>
               <p className="text-gray-600 mb-4">
                 You agree not to:
               </p>
               <ul className="list-disc list-inside text-gray-600 mb-6 space-y-2">
-                <li>Use our service for any illegal or unauthorized purpose</li>
-                <li>Violate any applicable laws or regulations</li>
-                <li>Interfere with or disrupt our service or servers</li>
-                <li>Attempt to gain unauthorized access to our systems</li>
-                <li>Harass, abuse, or harm other users or drivers</li>
-                <li>Provide false or misleading information</li>
-                <li>Use our service to transport illegal items or substances</li>
+                <li className="hover-lift">Use our service for any illegal or unauthorized purpose</li>
+                <li className="hover-lift">Violate any applicable laws or regulations</li>
+                <li className="hover-lift">Interfere with or disrupt our service or servers</li>
+                <li className="hover-lift">Attempt to gain unauthorized access to our systems</li>
+                <li className="hover-lift">Harass, abuse, or harm other users or drivers</li>
+                <li className="hover-lift">Provide false or misleading information</li>
+                <li className="hover-lift">Use our service to transport illegal items or substances</li>
               </ul>
             </div>
 
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up animate-delay-800">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">5. Payment Terms</h2>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">5.1 Pricing</h3>
               <p className="text-gray-600 mb-4">
@@ -85,7 +85,7 @@ export default function Terms() {
               </p>
             </div>
 
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up animate-delay-900">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">6. Safety and Security</h2>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">6.1 Driver Verification</h3>
               <p className="text-gray-600 mb-4">
@@ -98,19 +98,19 @@ export default function Terms() {
               </p>
             </div>
 
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up animate-delay-1000">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">7. Limitation of Liability</h2>
               <p className="text-gray-600 mb-4">
                 To the maximum extent permitted by law, Frec shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or use.
               </p>
             </div>
 
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up animate-delay-1100">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">8. Contact Information</h2>
               <p className="text-gray-600 mb-4">
                 If you have any questions about these Terms, please contact us:
               </p>
-              <div className="bg-gray-50 p-6 rounded-lg">
+              <div className="bg-gray-50 p-6 rounded-lg hover-lift">
                 <p className="text-gray-600 mb-2">
                   <strong>Email:</strong> legal@frec.com
                 </p>
