@@ -2,10 +2,10 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-700 text-white py-20">
-        <div className="container-custom text-center">
+      <section className="bg-gradient-to-br from-purple-600 to-purple-700 text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">About Frec</h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+          <p className="text-xl text-purple-100 max-w-3xl mx-auto">
             We're revolutionizing transportation by connecting people with reliable, safe, and affordable rides.
           </p>
         </div>
@@ -13,7 +13,7 @@ export default function About() {
 
       {/* Mission & Vision */}
       <section className="py-20">
-        <div className="container-custom">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
@@ -35,15 +35,15 @@ export default function About() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
+                  <div className="w-3 h-3 bg-purple-600 rounded-full"></div>
                   <span>Global accessibility</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
+                  <div className="w-3 h-3 bg-purple-600 rounded-full"></div>
                   <span>Sustainable transportation</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
+                  <div className="w-3 h-3 bg-purple-600 rounded-full"></div>
                   <span>Community connection</span>
                 </div>
               </div>
@@ -53,24 +53,24 @@ export default function About() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-blue-600 text-white">
-        <div className="container-custom">
+      <section className="py-20 bg-purple-600 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold mb-2">1M+</div>
-              <p className="text-blue-100">Happy Riders</p>
+              <p className="text-purple-100">Happy Riders</p>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">50K+</div>
-              <p className="text-blue-100">Verified Drivers</p>
+              <p className="text-purple-100">Verified Drivers</p>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">100+</div>
-              <p className="text-blue-100">Cities Served</p>
+              <p className="text-purple-100">Cities Served</p>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">24/7</div>
-              <p className="text-blue-100">Customer Support</p>
+              <p className="text-purple-100">Customer Support</p>
             </div>
           </div>
         </div>
