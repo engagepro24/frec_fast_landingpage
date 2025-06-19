@@ -1,3 +1,7 @@
+"use client"
+
+import CountUp from 'react-countup'
+
 export default function About() {
   return (
     <div className="min-h-screen">
@@ -56,20 +60,20 @@ export default function About() {
       <section className="py-20 bg-purple-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            <div className="animate-fade-in-up animate-delay-300 hover-lift">
-              <div className="text-4xl font-bold mb-2 animate-bounce-in">1M+</div>
+            <div className="animate-fade-in-up animate-delay-300 hover-lift transition-all duration-500 py-8 px-4">
+              <div className="text-4xl font-bold mb-2 animate-bounce-in"><CountUp end={1000000} duration={2} separator="," suffix="+" /></div>
               <p className="text-purple-100 animate-fade-in-up animate-delay-400">Happy Riders</p>
             </div>
-            <div className="animate-fade-in-up animate-delay-400 hover-lift">
-              <div className="text-4xl font-bold mb-2 animate-bounce-in">50K+</div>
+            <div className="animate-fade-in-up animate-delay-400 hover-lift transition-all duration-500 py-8 px-4">
+              <div className="text-4xl font-bold mb-2 animate-bounce-in"><CountUp end={50000} duration={2} separator="," suffix="+" /></div>
               <p className="text-purple-100 animate-fade-in-up animate-delay-500">Verified Drivers</p>
             </div>
-            <div className="animate-fade-in-up animate-delay-500 hover-lift">
-              <div className="text-4xl font-bold mb-2 animate-bounce-in">100+</div>
+            <div className="animate-fade-in-up animate-delay-400 hover-lift transition-all duration-500 py-8 px-4">
+              <div className="text-4xl font-bold mb-2 animate-bounce-in"><CountUp end={100} duration={2} separator="," suffix="+" /></div>
               <p className="text-purple-100 animate-fade-in-up animate-delay-600">Cities Served</p>
             </div>
-            <div className="animate-fade-in-up animate-delay-600 hover-lift">
-              <div className="text-4xl font-bold mb-2 animate-bounce-in">24/7</div>
+            <div className="animate-fade-in-up animate-delay-400 hover-lift transition-all duration-500 py-8 px-4">
+              <div className="text-4xl font-bold mb-2 animate-bounce-in"><CountUp end={24} duration={2} suffix="/7" /></div>
               <p className="text-purple-100 animate-fade-in-up animate-delay-700">Customer Support</p>
             </div>
           </div>
