@@ -24,13 +24,13 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-purple-600 transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-100">
+            <Link href="/" className="text-gray-700 hover:text-purple-600 hover:bg-white transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-100 px-3 py-2 rounded">
               Home
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-purple-600 transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-200">
+            <Link href="/about" className="text-gray-700 hover:text-purple-600 hover:bg-white transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-200 px-3 py-2 rounded">
               About
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-purple-600 transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-300">
+            <Link href="/contact" className="text-gray-700 hover:text-purple-600 hover:bg-white transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-300 px-3 py-2 rounded">
               Contact
             </Link>
             <Link href="/download" className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover-lift animate-fade-in-up animate-delay-400">
