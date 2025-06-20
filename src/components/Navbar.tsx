@@ -28,7 +28,7 @@ export default function Navbar() {
             <div className="h-8 w-8 bg-purple-600 rounded-lg flex items-center justify-center animate-bounce-in">
               <span className="text-white font-bold text-lg">F</span>
             </div>
-            <span className="text-xl font-bold text-gray-900">Frec</span>
+            <span className="text-xl font-bold text-gray-900">Frecfast</span>
           </Link>
 
           {/* Desktop Navigation */}

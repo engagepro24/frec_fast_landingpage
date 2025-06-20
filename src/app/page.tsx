@@ -42,10 +42,10 @@ export default function Home() {
                 Book your ride in seconds and travel with confidence.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animate-delay-300">
-                <Link href="/download" className="bg-white text-[rgb(105,58,151)] hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover-lift text-center">
+                <Link href="/#download" className="bg-white text-[rgb(105,58,151)] hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover-lift text-center">
                   Download App
                 </Link>
-                <Link href="/about" className="border-2 border-white text-white hover:bg-white hover:text-[rgb(105,58,151)] font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover-lift text-center">
+                <Link href="/#about" className="border-2 border-white text-white hover:bg-white hover:text-[rgb(105,58,151)] font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover-lift text-center">
                   Learn More
                 </Link>
               </div>
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up animate-delay-100">
-              Why Choose Frec?
+              Why Choose Frecfast?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
               We provide the best ride-sharing experience with safety, reliability, and convenience at the core.
@@ -171,7 +171,7 @@ export default function Home() {
             Ready to Start Your Journey?
           </h2>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto animate-fade-in-up animate-delay-200">
-            Join thousands of satisfied customers who trust Frec for their daily transportation needs.
+            Join thousands of satisfied customers who trust Frecfast for their daily transportation needs.
           </p>
           <Link href="/download" className="bg-white text-[rgb(105,58,151)] hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover-lift inline-block animate-fade-in-up animate-delay-300">
             Download App Now
@@ -190,7 +190,7 @@ export default function Home() {
             <div className="animate-fade-in-left animate-delay-300">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 animate-fade-in-up animate-delay-400">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6 animate-fade-in-up animate-delay-500">
-                At Frec, we believe that transportation should be accessible, reliable, and safe for everyone.
+                At Frecfast, we believe that transportation should be accessible, reliable, and safe for everyone.
                 Our mission is to provide a seamless ride-sharing experience that connects communities and
                 makes travel more convenient than ever before.
               </p>
@@ -254,9 +254,9 @@ export default function Home() {
       {/* Download Section */}
       <section id="download" className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Download the Frec App</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Download the Frecfast App</h2>
           <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-            Get started with Frec by downloading our app for your device.
+            Get started with Frecfast by downloading our app for your device.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#" className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover-lift inline-block">Download for iOS</a>
@@ -273,7 +273,7 @@ export default function Home() {
               App Features
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
-              Discover what makes the Frec app the best choice for your transportation needs.
+              Discover what makes the Frecfast app the best choice for your transportation needs.
             </p>
           </div>
 
