@@ -33,10 +33,10 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-purple-600 hover:bg-white transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-100 px-3 py-2 rounded">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-purple-600 hover:bg-white transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-200 px-3 py-2 rounded">About</a>
-            <a href="#contact" className="text-gray-700 hover:text-purple-600 hover:bg-white transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-400 px-3 py-2 rounded">Contact</a>
-            <a href="#download" className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover-lift animate-fade-in-up animate-delay-400">Download App</a>
+            <a href="/#home" className="text-gray-700 hover:text-purple-600 hover:bg-white transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-100 px-3 py-2 rounded">Home</a>
+            <a href="/#about" className="text-gray-700 hover:text-purple-600 hover:bg-white transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-200 px-3 py-2 rounded">About</a>
+            <a href="/#contact" className="text-gray-700 hover:text-purple-600 hover:bg-white transition-colors duration-300 hover-lift animate-fade-in-up animate-delay-400 px-3 py-2 rounded">Contact</a>
+            <a href="/#download" className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover-lift animate-fade-in-up animate-delay-400">Download App</a>
           </div>
 
           {/* Mobile menu button - simplified */}
@@ -66,10 +66,10 @@ export default function Navbar() {
               </button>
             </div>
             <div className="flex flex-col px-4 pb-4 space-y-2">
-              <a href="#home" className="block text-white hover:text-purple-200 transition-colors duration-500 py-3 px-4 rounded text-lg font-medium" onClick={toggleMenu}>Home</a>
-              <a href="#about" className="block text-white hover:text-purple-200 transition-colors duration-500 py-3 px-4 rounded text-lg font-medium" onClick={toggleMenu}>About</a>
-              <a href="#contact" className="block text-white hover:text-purple-200 transition-colors duration-500 py-3 px-4 rounded text-lg font-medium" onClick={toggleMenu}>Contact</a>
-              <a href="#download"className="block bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-500 text-lg">Download App</a>
+              <a href="/#home" className="block text-white hover:text-purple-200 transition-colors duration-500 py-3 px-4 rounded text-lg font-medium" onClick={toggleMenu}>Home</a>
+              <a href="/#about" className="block text-white hover:text-purple-200 transition-colors duration-500 py-3 px-4 rounded text-lg font-medium" onClick={toggleMenu}>About</a>
+              <a href="/#contact" className="block text-white hover:text-purple-200 transition-colors duration-500 py-3 px-4 rounded text-lg font-medium" onClick={toggleMenu}>Contact</a>
+              <a href="/#download"className="block bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-500 text-lg">Download App</a>
             </div>
           </div>
         </>
