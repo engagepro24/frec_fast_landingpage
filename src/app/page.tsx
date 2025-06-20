@@ -135,7 +135,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 animate-bounce-in hover-scale">
                 1
               </div>
-              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-400">Book Your Ride</h3>
+              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-400 text-black">Book Your Ride</h3>
               <p className="text-gray-600 animate-fade-in-up animate-delay-500">
                 Open the app, enter your destination, and choose your ride type.
               </p>
@@ -145,7 +145,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 animate-bounce-in hover-scale">
                 2
               </div>
-              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-500">Get Matched</h3>
+              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-500 text-black">Get Matched</h3>
               <p className="text-gray-600 animate-fade-in-up animate-delay-600">
                 We'll connect you with a nearby driver who will pick you up in minutes.
               </p>
@@ -155,7 +155,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 animate-bounce-in hover-scale">
                 3
               </div>
-              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-600">Enjoy Your Ride</h3>
+              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-600 text-black">Enjoy Your Ride</h3>
               <p className="text-gray-600 animate-fade-in-up animate-delay-700">
                 Sit back, relax, and enjoy your journey. Payment is automatic and secure.
               </p>
@@ -199,7 +199,7 @@ export default function Home() {
                 economic opportunities for drivers while providing exceptional service to our riders.
               </p>
             </div>
-            <div className="bg-gray-50 p-8 rounded-xl hover-lift animate-fade-in-right animate-delay-400">
+            <div className="bg-gray-50 p-8 rounded-xl hover-lift animate-fade-in-right animate-delay-400 text-black">
               <h3 className="text-2xl font-semibold mb-4 animate-fade-in-up animate-delay-500">Our Vision</h3>
               <p className="text-gray-600 mb-6 animate-fade-in-up animate-delay-600">
                 To become the world's most trusted and preferred transportation platform,
@@ -254,7 +254,7 @@ export default function Home() {
       {/* Download Section */}
       <section id="download" className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Download the Frecfast App</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-black">Download the Frecfast App</h2>
           <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
             Get started with Frecfast by downloading our app for your device.
           </p>
@@ -284,7 +284,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-1.447-.894L15 4m0 13V4m-6 3l6-3" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-400">Real-time Tracking</h3>
+              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-400 text-black">Real-time Tracking</h3>
               <p className="text-gray-600 animate-fade-in-up animate-delay-500">
                 Track your driver's location in real-time and know exactly when they'll arrive.
               </p>
@@ -296,7 +296,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-500">Secure Payments</h3>
+              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-500 text-black">Secure Payments</h3>
               <p className="text-gray-600 animate-fade-in-up animate-delay-600">
                 Multiple payment options with secure, encrypted transactions for your peace of mind.
               </p>
@@ -308,7 +308,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-600">24/7 Support</h3>
+              <h3 className="text-xl font-semibold mb-4 animate-fade-in-up animate-delay-600 text-black">24/7 Support</h3>
               <p className="text-gray-600 animate-fade-in-up animate-delay-700">
                 Get help anytime with our round-the-clock customer support team.
               </p>
@@ -323,7 +323,7 @@ export default function Home() {
 
 
        {/* Contact Form & Info */}
-      <section id="contact" className="py-20">
+      <section id="contact" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
