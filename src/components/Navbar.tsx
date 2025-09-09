@@ -137,7 +137,8 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/contact"
+              href="#"
+              // href="/contact"
               className={`font-semibold py-3 px-6 rounded-full border-2 border-[#9F712C] ${
                 pathname === '/contact'
                   ? 'text-[#F6ED87] bg-[#7544A6] hover:bg-[#9e5ddf]'
