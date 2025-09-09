@@ -1,4 +1,20 @@
+
 @import "tailwindcss";
+/* Slick dots fix */
+.slick-dots {
+  bottom: 0px !important; /* push them up inside the phone */
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #10041F !important; /* default dot color */
+  opacity: 0.6;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important; /* active dot = gold */
+  opacity: 1;
+}
 
 :root {
   --background: #ffffff;
@@ -18,6 +34,20 @@
     --foreground: #ededed;
   }
 }
+.bg-gold{
+  background: linear-gradient(90deg, #9F712C 0%, #F6ED87 49.52%, #C2972A 100%);
+
+}
+
+
+.text-gold-gradient {
+  background: linear-gradient(90deg, #9F712C 0%, #F6ED87 49.52%, #C2972A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
 
 body {
   background: var(--background);
