@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import React, { useState, useRef, useEffect } from "react";
 import {
   StandaloneSearchBox,
@@ -232,4 +234,10 @@ const RapidoBooking = () => {
   );
 };
 
-export default RapidoBooking;
+const Page = () => (
+  <React.Suspense fallback={<div>Loading...</div>}>
+    <RapidoBooking />
+  </React.Suspense>
+);
+
+export default Page;
