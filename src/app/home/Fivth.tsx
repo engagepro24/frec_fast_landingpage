@@ -1,4 +1,5 @@
 "use client"
+            //   src="https://palanivelstorage.s3.ap-south-1.amazonaws.com/mediaBucketname/11681734799b43dc52db9988877dbb42.mp4"
 
 import React, { useState } from 'react'
 // import head from '../../../public/head.png'
