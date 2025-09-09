@@ -46,7 +46,7 @@ const Fivth = () => {
                                 onClick={() => setIsPlaying(true)}
                                 className="absolute inset-0 flex items-center justify-center"
                             >
-                                <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-[#7544A6] text-white shadow-lg hover:scale-110 transition-transform">
+                                <div className="cursor-pointer w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-[#7544A6] text-white shadow-lg hover:scale-110 transition-transform">
                                     <Play size={32} fill="white" />
                                 </div>
                             </button>
