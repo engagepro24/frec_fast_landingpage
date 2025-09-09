@@ -52,7 +52,7 @@ const Third = () => {
               affordable prices.
             </p>
             <Link
-              href="/#contact"
+              href="/contact"
               className="flex items-center gap-2 text-white bg-[#7544A6] hover:bg-[#9e5ddf] font-semibold py-2 px-6 rounded-full border-2 border-[#9F712C] mx-auto md:mx-0 w-fit"
             >
               Contact Us

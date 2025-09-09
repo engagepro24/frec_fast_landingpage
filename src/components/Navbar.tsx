@@ -77,8 +77,7 @@ export default function Navbar() {
           {/* Right: Contact Button (hidden on lg-) */}
           <div className="hidden lg:flex">
             <Link
-              href="#"
-              // href="/contact"
+              href="/contact"
               className={`font-semibold py-2 px-6 rounded-full border-2 border-[#9F712C] transition-all duration-300 ${
                 pathname == '/contact'
                   ? 'text-[#F6ED87] bg-[#7544A6] hover:bg-[#9e5ddf]'

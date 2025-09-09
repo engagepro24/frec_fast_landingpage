@@ -71,11 +71,11 @@ const Second = () => {
                             key={index}
                             className="flex flex-col items-start text-start border-2 border-[#9F712C] rounded-4xl p-2 bg-[#211B2A] hover:scale-105 transition-transform"
                         >
-                            {/* <Link href={`/service/${card.head}`} key={index}> */}
+                            <Link href={`/service/${card.head}`} key={index}>
                                 <Image src={card.icon} alt={card.head} width={80} height={80} />
                                 <h3 className="text-white text-lg font-semibold  px-4">{card.head}</h3>
                                 <p className="text-gray-300 text-sm mt-2 px-4">{card.subhead}</p>
-                            {/* </Link> */}
+                            </Link>
                         </div>
                     ))}
                 </div>

@@ -4,12 +4,14 @@ import apple from "../../../../public/apple.png";
 import playstore from "../../../../public/playstore.png";
 import menmobile from "../../../../public/menmobile.png";
 import Image from "next/image";
+import Link from "next/link";
 
 interface FirstProps {
-  type: string
+    type: string
 }
 
-const Fourth: React.FC<FirstProps> = ({ type }) => {    return (
+const Fourth: React.FC<FirstProps> = ({ type }) => {
+    return (
         <div className="bg-[#10041F]">
             <div className='bg-[#090212] h-[100px] md:h-[250px]'></div>
             <div
@@ -34,20 +36,26 @@ const Fourth: React.FC<FirstProps> = ({ type }) => {    return (
                         </p>
 
                         <div className="flex justify-center md:justify-start gap-3">
-                            <Image
-                                src={playstore}
-                                alt="playstore"
-                                width={120}
-                                height={120}
-                                className="w-28 sm:w-32"
-                            />
-                            <Image
-                                src={apple}
-                                alt="apple"
-                                width={120}
-                                height={120}
-                                className="w-28 sm:w-32"
-                            />
+                            <Link href="#" target="_blank" rel="noopener noreferrer">
+
+                                <Image
+                                    src={playstore}
+                                    alt="playstore"
+                                    width={120}
+                                    height={120}
+                                    className="w-28 sm:w-32"
+                                />
+                            </Link>
+                            <Link href="#" target="_blank" rel="noopener noreferrer">
+
+                                <Image
+                                    src={apple}
+                                    alt="apple"
+                                    width={120}
+                                    height={120}
+                                    className="w-28 sm:w-32"
+                                />
+                            </Link>
                         </div>
                     </div>
 

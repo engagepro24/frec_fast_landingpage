@@ -1,11 +1,30 @@
+"use client"
 import Link from 'next/link'
 import send from '../../public/send.png'
 import logo1 from '../../public/logo1.png'
 import logo2 from '../../public/logo2.png'
+import footerShape from '../../public/footer-shape.png'
+import topNavigate from '../../public/topNavigate.png'
 import Image from 'next/image'
 export default function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
-    <footer className="bg-[#10041F] text-white">
+    <footer className="relative bg-[#10041F] text-white"
+
+    >
+
+      {/* <div
+        style={{
+          backgroundImage: `url(${footerShape.src})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "top right",
+          backgroundSize: "contain",
+        }}
+        className="absolute w-full h-[100px] sm:h-[100px] md:h-[150px]  top-[40%] right-[10%] md:right-[10%] lg:right-[25%]"
+      /> */}
+
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
@@ -88,28 +107,28 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">My Account</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/#home" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
+                <Link href="/" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/#about" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
+                <Link href="/#second" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/#contact" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
+                <Link href="/#third" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
                   Customer
                 </Link>
               </li>
               <li>
-                <Link href="/#download" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
+                <Link href="/#fourth" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
                   Captian
                 </Link>
               </li>
               <li>
-                <Link href="/#download" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
-                  Benifits
+                <Link href="/#fivth" className="text-gray-300 hover:text-purple-500 transition-all duration-300 hover-lift">
+                  Benefits
                 </Link>
               </li>
             </ul>
@@ -145,7 +164,17 @@ export default function Footer() {
                 <Image src={send} alt="send" width={20} height={20} />
               </button>
             </div>
+            <div
+              style={{
+                backgroundImage: `url(${footerShape.src})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "contain",
+              }}
+              className=" w-full h-[110px]"
+            />
           </div>
+
 
         </div>
 
@@ -168,6 +197,16 @@ export default function Footer() {
                 Terms & Conditions
               </Link>
             </div>
+            <div>
+              <button
+                onClick={scrollToTop}
+                className="cursor-pointer hover:scale-110 transition-transform"
+                aria-label="Back to top"
+              >
+                <Image src={topNavigate} alt="Back to top" width={40} height={40} />
+              </button>
+            </div>
+
           </div>
         </div>
 
