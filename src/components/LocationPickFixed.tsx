@@ -31,6 +31,7 @@ const LocationPickFixed = () => {
 
   const pickupRef = useRef<any>(null);
   const dropRef = useRef<any>(null);
+  let googlekey ="AIzaSyA8G4zHnAyp4d_jTxyD59kXbRmdyZQcoEw"
 
   const handlePickupPlacesChanged = () => {
     if (pickupRef.current) {
@@ -59,7 +60,7 @@ const LocationPickFixed = () => {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyA8G4zHnAyp4d_jTxyD59kXbRmdyZQcoEw" libraries={libraries}>
+    <LoadScript googleMapsApiKey={googlekey} libraries={libraries}>
       {/* Top custom styled search inputs */}
       <div className="flex justify-center mt-6">
         <div className="flex flex-col md:flex-row items-center gap-4">
