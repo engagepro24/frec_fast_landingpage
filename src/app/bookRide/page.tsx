@@ -91,8 +91,8 @@ const RapidoBooking = () => {
     const a =
       Math.sin(dLat / 2) ** 2 +
       Math.cos(toRad(lat1)) *
-        Math.cos(toRad(lat2)) *
-        Math.sin(dLng / 2) ** 2;
+      Math.cos(toRad(lat2)) *
+      Math.sin(dLng / 2) ** 2;
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     return R * c;
   };
@@ -177,26 +177,25 @@ const RapidoBooking = () => {
 
       {/* Services */}
       <div className="w-full max-w-2xl">
-        <p className="font-medium mb-3">Select service</p>
+        <p className="font-bold  mb-3 ">Select Service</p>
         <div className="flex flex-col space-y-3">
           {vehicles.map((vehicle) => {
             const ridePrice = vehicle.baseFare + vehicle.pricePerKm * distance;
-            const awsImage = "https://frecfastjune.s3.ap-south-1.amazonaws.com/"+vehicle.image
+            const awsImage = "https://frecfastjune.s3.ap-south-1.amazonaws.com/" + vehicle.image
             return (
               <div
                 key={vehicle._id}
                 onClick={() => setSelectedRide(vehicle._id)}
-                className={`flex items-center justify-between border rounded-lg p-3 cursor-pointer transition ${
-                  selectedRide === vehicle._id
-                    ? "border-blue-600 bg-gray-100 text-black"
-                    : "border-gray-300 hover:border-gray-400"
-                }`}
+                className={`flex items-center justify-between border rounded-lg p-3 cursor-pointer transition ${selectedRide === vehicle._id
+                  ? "border-blue-600 bg-gray-100 text-black"
+                  : "border-gray-300 hover:border-gray-400"
+                  }`}
               >
                 <div className="flex items-center space-x-3">
 
-                    <Image   src={`https://frecfastjune.s3.ap-south-1.amazonaws.com/${vehicle.image}`} alt="pickup" width={40} height={60} />
-                
-                <p className="font-medium">{vehicle.vehicleType}</p>
+                  <Image src={`https://frecfastjune.s3.ap-south-1.amazonaws.com/${vehicle.image}`} alt="pickup" width={40} height={60} />
+
+                  <p className="font-medium">{vehicle.vehicleType}</p>
                 </div>
                 <p className="font-semibold">₹{ridePrice.toFixed(0)}</p>
               </div>
@@ -219,13 +218,24 @@ const RapidoBooking = () => {
           if (!selectedVehicle) return;
           const ridePrice =
             selectedVehicle.baseFare + selectedVehicle.pricePerKm * distance;
-          alert(
-            `Ride confirmed!\nPickup: ${pickup.address}\nDrop: ${drop.address}\nDistance: ${distance.toFixed(
-              2
-            )} km\nVehicle: ${selectedVehicle.vehicleType}\nPrice: ₹${ridePrice.toFixed(
-              0
-            )}`
+
+          // Replace alert with redirect to Play Store
+          // window.open(
+          //   "https://play.google.com/store/apps/details?id=com.ubercab", // Replace with your app package name
+          //   "_blank"
+          // );
+          // Replace alert with redirect to Play Store
+          window.open(
+            "https://play.google.com/store/apps", // Replace with your app package name
+            "_blank"
           );
+          // alert(
+          //   `Ride confirmed!\nPickup: ${pickup.address}\nDrop: ${drop.address}\nDistance: ${distance.toFixed(
+          //     2
+          //   )} km\nVehicle: ${selectedVehicle.vehicleType}\nPrice: ₹${ridePrice.toFixed(
+          //     0
+          //   )}`
+          // );
         }}
       >
         Continue Booking

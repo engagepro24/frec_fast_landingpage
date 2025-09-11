@@ -186,7 +186,7 @@ export default function Footer() {
             <p className="text-[#FFFFFF]">
               Copyright 2025 <span className='text-[#AF60FF]'>Frecfast</span> | All Right Reserved
             </p>
-            <div className="flex space-x-2 mt-4 md:mt-0">
+            <div className="flex space-x-2 mt-4 md:mt-0 items-center">
               <Link href="/privacy" className="text-[#FFFFFF] hover:text-purple-500 transition-all duration-300 hover-lift">
                 Privacy Policy
               </Link>
@@ -196,8 +196,8 @@ export default function Footer() {
               <Link href="/terms" className="text-[#FFFFFF] hover:text-purple-500 transition-all duration-300 hover-lift">
                 Terms & Conditions
               </Link>
-            </div>
-            <div>
+
+                <div>
               <button
                 onClick={scrollToTop}
                 className="cursor-pointer hover:scale-110 transition-transform"
@@ -206,6 +206,8 @@ export default function Footer() {
                 <Image src={topNavigate} alt="Back to top" width={40} height={40} />
               </button>
             </div>
+            </div>
+          
 
           </div>
         </div>
