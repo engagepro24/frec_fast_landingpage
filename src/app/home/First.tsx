@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import greenmap from '../../../public/greenmap.png'
 import redmap from '../../../public/redmap.png'
