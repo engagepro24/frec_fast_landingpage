@@ -127,13 +127,13 @@ const RapidoBooking = () => {
 
 
   return (
-    <div className="min-h-screen bg-white text-black flex flex-col items-center py-6 px-4">
+    <div className="min-h-screen bg-[#411B66]  flex flex-col items-center py-6 px-4 text-white">
       <div className="w-full max-w-2xl flex justify-start mb-4">
         {/* <h1 className="text-xl font-bold text-[#411B66]">Frecfast</h1> */}
       </div>
 
       {/* Pickup & Drop Inputs */}
-      <div className="w-full max-w-2xl border rounded-lg bg-gray-50 p-4 mb-6 space-y-3">
+      <div className="w-full max-w-2xl border rounded-lg bg-[#411B66] p-4 mb-6 space-y-3">
         {/* Pickup Input */}
         <div className="relative">
           <StandaloneSearchBox
@@ -147,7 +147,7 @@ const RapidoBooking = () => {
                 setPickup({ ...pickup, address: e.target.value })
               }
               placeholder="Enter Pickup Location"
-              className="w-full pl-10 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#f9c100]"
+              className="w-full pl-10 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#10041f]"
             />
           </StandaloneSearchBox>
           <div className="absolute left-3 top-1/2 -translate-y-1/2">
@@ -166,7 +166,7 @@ const RapidoBooking = () => {
               value={drop.address}
               onChange={(e) => setDrop({ ...drop, address: e.target.value })}
               placeholder="Enter Drop Location"
-              className="w-full pl-10 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#f9c100]"
+              className="w-full pl-10 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#10041f]"
             />
           </StandaloneSearchBox>
           <div className="absolute left-3 top-1/2 -translate-y-1/2">
@@ -188,7 +188,7 @@ const RapidoBooking = () => {
                 onClick={() => setSelectedRide(vehicle._id)}
                 className={`flex items-center justify-between border rounded-lg p-3 cursor-pointer transition ${
                   selectedRide === vehicle._id
-                    ? "border-blue-600 bg-gray-100"
+                    ? "border-blue-600 bg-gray-100 text-black"
                     : "border-gray-300 hover:border-gray-400"
                 }`}
               >
@@ -206,13 +206,13 @@ const RapidoBooking = () => {
       </div>
 
       {/* Payment Method */}
-      <div className="w-full max-w-2xl mt-6 flex items-center gap-2 text-sm text-gray-700">
+      <div className="w-full max-w-2xl mt-6 flex items-center gap-2 text-sm ">
         <span className="text-lg">💳</span> Cash
       </div>
 
       {/* Continue Booking Button */}
       <button
-        className="w-full max-w-2xl mt-6 bg-[#411B66] text-white cursor-pointer py-3 rounded-md font-semibold disabled:opacity-50"
+        className="w-full max-w-2xl mt-6 bg-[#10041f] text-white cursor-pointer py-3 rounded-md font-semibold disabled:opacity-50"
         disabled={!pickup.address || !drop.address || !selectedRide}
         onClick={() => {
           const selectedVehicle = vehicles.find((v) => v._id === selectedRide);

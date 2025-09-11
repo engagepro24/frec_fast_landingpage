@@ -42,7 +42,7 @@ const First = () => {
           From bike, auto, and car rides to fast, secure parcel deliveries —
           everything you need in one reliable app.
         </p>
-        {/* <LocationPickFixed /> */}
+        <LocationPickFixed />
 
         {/* <div className="flex justify-center mt-6">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -64,17 +64,17 @@ const First = () => {
 
 
         {/* Slider Section */}
-        {/* <div className="mt-8 max-w-[500px] mx-auto relative pb-6"> */}
+        <div className="mt-8 max-w-[500px] mx-auto relative pb-6">
           {/* Phone frame */}
-          {/* <Image
+           <Image
             src={phone}
             alt="Phone frame"
             className="w-full h-full "
             priority
-          /> */}
+          /> 
 
           {/* Phone screen area */}
-          {/* <div className="absolute top-[6%] left-[28%] w-[38%] h-[96%] overflow-hidden ">
+           <div className="absolute top-[6%] left-[28%] w-[38%] h-[96%] overflow-hidden ">
             <Slider {...settings} className="w-full h-full   ">
               {phoneImages.map((img, index) => (
                 <div key={index} className="w-full h-full flex items-center justify-center ">
@@ -86,8 +86,8 @@ const First = () => {
                 </div>
               ))}
             </Slider>
-          </div> */}
-        {/* </div> */}
+          </div> 
+        </div>
 
 
 
