@@ -108,7 +108,7 @@ const Contact = () => {
                                     value={formData.name}
                                     onChange={handleChange}
                                     required
-                                    className="bg-white w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
+                                    className="bg-white  text-black w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
                                     placeholder="Enter your full name"
                                 />
                             </div>
@@ -124,7 +124,7 @@ const Contact = () => {
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
-                                    className="bg-white  w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
+                                    className="bg-white text-black  w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
                                     placeholder="Enter your email"
                                 />
                             </div>
@@ -141,7 +141,7 @@ const Contact = () => {
                                     name="phone"
                                     value={formData.phone}
                                     onChange={handleChange}
-                                    className="bg-white  w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
+                                    className="bg-white text-black  w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
                                     placeholder="Enter your phone number"
                                 />
                             </div>
@@ -157,7 +157,7 @@ const Contact = () => {
                                     value={formData.subject}
                                     onChange={handleChange}
                                     required
-                                    className="bg-white  w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
+                                    className="bg-white text-black w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
                                     placeholder="Enter subject"
                                 />
                                 {/* <select
@@ -188,14 +188,14 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 rows={4}
-                                className="bg-white  w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
+                                className="bg-white text-black w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 hover:scale-105"
                                 placeholder="Tell us how we can help you..."
                             ></textarea>
                         </div>
 
                         <button
                             type="submit"
-                            className="w-full md:w-[200px] bg-gold hover:bg-purple-700 text-[#6B1580] font-semibold py-4 px-8 rounded-4xl transition-all duration-300 hover:scale-105 animate-fade-in-up animate-delay-1000"
+                            className="w-full cursor-pointer md:w-[200px] bg-gold hover:bg-purple-700 text-[#6B1580] font-semibold py-4 px-8 rounded-4xl transition-all duration-300 hover:scale-105 animate-fade-in-up animate-delay-1000"
                         >
                             Send Message
                         </button>
