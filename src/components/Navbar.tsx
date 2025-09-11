@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation'
 import logo1 from '../../public/logo1.png'
 import logo2 from '../../public/logo2.png'
 
+
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
