@@ -131,7 +131,7 @@ export default function Privacy() {
               <p className="text-gray-600 mb-4">
                 If you have any questions about this Privacy Policy or our privacy practices, please contact us:
               </p>
-              <div className="bg-gray-50 p-6 rounded-lg hover-lift">
+              <div className="bg-gray-50 !p-4 rounded-lg hover-lift">
                 <p className="text-gray-600 mb-2">
                   <strong>Email:</strong> privacy@frec.com
                 </p>
