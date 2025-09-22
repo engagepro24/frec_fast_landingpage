@@ -245,6 +245,7 @@ body {
 /* Hover animations */
 .hover-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 8px;
 }
 
 .hover-lift:hover {
