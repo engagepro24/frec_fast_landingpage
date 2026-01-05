@@ -23,10 +23,10 @@ const Ready = () => {
         Ready to take plan? just a
       </h1>
       <h2 className="text-white font-bold text-2xl sm:text-3xl">Matter of one click</h2>
-      <h6 className="text-white text-xs sm:text-sm">Subscribe to get daily updated from us !!!</h6>
+      {/* <h6 className="text-white text-xs sm:text-sm">Subscribe to get daily updated from us !!!</h6> */}
 
       {/* Email input */}
-      <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 md:gap-2 animate-fade-in-right animate-delay-300 mt-4">
+      {/* <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 md:gap-2 animate-fade-in-right animate-delay-300 mt-4">
         <input
           type="email"
           placeholder="Email Address"
@@ -38,11 +38,11 @@ const Ready = () => {
         >
           Send
         </button>
-      </div>
+      </div> */}
 
-      <h6 className="text-white mt-2 text-xs sm:text-sm">
+      {/* <h6 className="text-white mt-2 text-xs sm:text-sm">
         Already a member? <span className="text-[#6B1580]">Sign in</span>
-      </h6>
+      </h6> */}
     </div>
     </div>
 

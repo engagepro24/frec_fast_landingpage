@@ -181,7 +181,7 @@ const RapidoBooking = () => {
         <div className="flex flex-col space-y-3">
           {vehicles.map((vehicle) => {
             const ridePrice = vehicle.baseFare + vehicle.pricePerKm * distance;
-            const awsImage = "https://frecfastjune.s3.ap-south-1.amazonaws.com/" + vehicle.image
+            const awsImage = "https://tgps-new-2025.s3.ap-south-1.amazonaws.com/" + vehicle.image
             return (
               <div
                 key={vehicle._id}
@@ -193,7 +193,7 @@ const RapidoBooking = () => {
               >
                 <div className="flex items-center space-x-3">
 
-                  <Image src={`https://frecfastjune.s3.ap-south-1.amazonaws.com/${vehicle.image}`} alt="pickup" width={40} height={60} />
+                  <Image src={`https://tgps-new-2025.s3.ap-south-1.amazonaws.com/${vehicle.image}`} alt="pickup" width={40} height={60} />
 
                   <p className="font-medium">{vehicle.vehicleType}</p>
                 </div>

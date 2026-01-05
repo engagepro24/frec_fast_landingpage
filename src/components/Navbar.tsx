@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation'
 import logo1 from '../../public/logo1.png'
 import logo2 from '../../public/logo2.png'
 
+import AppLogo from "../../public/app_logo.png"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -54,8 +55,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Left: Logo */}
           <Link href="/" className="flex items-center space-x-2 hover-scale">
-            <Image src={logo1} alt="Frecfast logo" width={40} height={40} />
-            <Image src={logo2} alt="Frecfast logo" width={40} height={40} />
+            <Image src={AppLogo} alt="Frecfast logo" width={120} height={120} />
+            {/* <Image src={logo2} alt="Frecfast logo" width={40} height={40} /> */}
           </Link>
 
           {/* Center: Navigation (hidden on lg-) */}
