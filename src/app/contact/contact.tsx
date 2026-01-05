@@ -36,8 +36,8 @@ const Contact = () => {
 
     const contactInfo = [
         { icon: phnoe, label: '(00) 875 784 5682' },
-        { icon: message, label: 'saastyinfo@gmail.com' },
-        { icon: location, label: '238, Arimantab, Moska - USA.' }
+        { icon: message, label: 'admin@tgpsglobal.com' },
+        { icon: location, label: '1st Floor, GV Tower, 371/1, G.V. Residency,Uppilipalayam, Coimbatore, Tamil Nadu – 641028' }
     ]
 
     const linkicon = [

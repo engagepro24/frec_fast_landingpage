@@ -39,9 +39,9 @@ export default function Footer() {
             <p className="text-gray-300">
              Your everyday rides made simple. Choose FRECFAST for quick bookings, verified drivers, and smooth journeys.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4"> */}
               {/* Facebook */}
-              <a
+              {/* <a
                 href="#"
                 className="text-white hover:text-purple-500 transition-all duration-300"
               >
@@ -60,10 +60,10 @@ export default function Footer() {
         23.027 24 18.062 24 12.073z"
                   />
                 </svg>
-              </a>
+              </a> */}
 
               {/* Twitter */}
-              <a
+              {/* <a
                 href="#"
                 className="text-white hover:text-purple-500 transition-all duration-300"
               >
@@ -88,10 +88,10 @@ export default function Footer() {
         9.935 0 0024 4.59z"
                   />
                 </svg>
-              </a>
+              </a> */}
 
               {/* Instagram */}
-              <a
+              {/* <a
                 href="#"
                 className="text-white hover:text-purple-500 transition-all duration-300 hover-scale"
                 aria-label="Instagram"
@@ -103,10 +103,10 @@ export default function Footer() {
                 >
                   <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3.25a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5.25.75a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                 </svg>
-              </a>
+              </a> */}
 
               {/* YouTube */}
-              <a
+              {/* <a
                 href="#"
                 className="text-white hover:text-purple-500 transition-all duration-300"
               >
@@ -128,8 +128,8 @@ export default function Footer() {
         15.02V8.98L15.5 12l-5.75 3.02z"
                   />
                 </svg>
-              </a>
-            </div>
+              </a> */}
+            {/* </div> */}
           </div>
 
           {/* Quick Links */}
