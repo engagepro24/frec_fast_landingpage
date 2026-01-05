@@ -37,8 +37,7 @@ export default function Footer() {
               </Link>
             </div>
             <p className="text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod
-              tempor.
+             Your everyday rides made simple. Choose FRECFAST for quick bookings, verified drivers, and smooth journeys.
             </p>
             <div className="flex space-x-4">
               {/* Facebook */}
@@ -242,7 +241,7 @@ export default function Footer() {
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-[#FFFFFF]">
-              Copyright 2025 <span className="text-[#AF60FF]">Frecfast</span> |
+              Copyright 2025 <span className="text-[#AF60FF]">FRECFAST</span> |
               All Right Reserved
             </p>
             <div className="flex space-x-2 mt-4 md:mt-0 items-center">

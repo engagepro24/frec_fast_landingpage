@@ -205,9 +205,9 @@ const RapidoBooking = () => {
       </div>
 
       {/* Payment Method */}
-      <div className="w-full max-w-2xl mt-6 flex items-center gap-2 text-sm ">
+      {/* <div className="w-full max-w-2xl mt-6 flex items-center gap-2 text-sm ">
         <span className="text-lg">💳</span> Cash
-      </div>
+      </div> */}
 
       {/* Continue Booking Button */}
       <button
