@@ -6,7 +6,9 @@ import Second from './Second'
 import Third from './Third'
 import Fourth from './Fourth'
 import { useParams } from 'next/navigation'
-
+// service_parcel
+import man from '../../../../public/man.png'
+import service_parcel from '../../../../public/service_parcel.png'
 
 const ServicePage: React.FC = () => {
   const params = useParams() as { type: string }
@@ -25,7 +27,7 @@ const ServicePage: React.FC = () => {
   return (
     <div className='bg-[#411B66]'>
       <First type={heading} />
-      <Second type={heading} />
+      <Second type={heading}  />
       <Third type={heading} />
       <Fourth type={heading} />
     </div>

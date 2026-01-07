@@ -4,6 +4,11 @@ import greenmap from '../../../public/greenmap.png'
 import redmap from '../../../public/redmap.png'
 import phone from '../../../public/phone.png'
 import phslide from '../../../public/phslide.png'
+import phslide1 from '../../../public/phslide1.jpeg'
+import phslide2 from '../../../public/phslide2.jpeg'
+import phslide3 from '../../../public/phslide3.jpeg'
+import phslide4 from '../../../public/phslide4.jpeg'
+import phslide5 from '../../../public/phslide5.jpeg'
 import Image from 'next/image'
 import LocationPickFixed from "../../components/LocationPickFixed"
 import Slider from "react-slick"; // 👈 import the slider component
@@ -12,7 +17,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 
-const phoneImages = [phslide, phslide, phslide]; // 👈 you can add more images here
+const phoneImages = [phslide1, phslide2, phslide3, phslide4, phslide5]; // 👈 you can add more images here
 
 const First = () => {
   // Slider settings
