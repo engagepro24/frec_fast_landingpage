@@ -72,18 +72,18 @@ const Contact = () => {
                             </div>
                         ))}
                     </div>
-
+{/* 
                     <h2 className="text-3xl font-bold text-gold-gradient mb-4 animate-fade-in-up animate-delay-500">
                         We are on social network
-                    </h2>
+                    </h2> */}
 
-                    <div className="flex items-center gap-3">
+                    {/* <div className="flex items-center gap-3">
                         {linkicon.map((lin, index) => (
                             <div key={index}>
                                 <Image src={lin.icon} alt="icon" width={40} height={40} />
                             </div>
                         ))}
-                    </div>
+                    </div> */}
 
                     <Image src={deli} alt="icon" width={240} height={240} />
 
