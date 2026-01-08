@@ -83,11 +83,8 @@ export default function Terms() {
 
             {!loading && !error && content && (
               <div
-                className="terms-content animate-fade-in-up animate-delay-300"
+                className="animate-fade-in-up animate-delay-300 [&_h3]:text-2xl [&_h3]:font-bold [&_h3]:text-gray-900 [&_h3]:mt-8 [&_h3]:mb-4 [&_p]:text-gray-600 [&_p]:mb-4 [&_p]:leading-relaxed [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_ul]:space-y-2 [&_li]:text-gray-600 [&_li]:mb-2 [&_li]:leading-relaxed [&_strong]:font-semibold [&_strong]:text-gray-900 [&_br]:mb-4"
                 dangerouslySetInnerHTML={{ __html: content }}
-                style={{
-                  color: "#374151",
-                }}
               />
             )}
 
@@ -99,43 +96,6 @@ export default function Terms() {
           </div>
         </div>
       </section>
-
-      <style jsx global>{`
-        .terms-content h3 {
-          font-size: 1.5rem;
-          font-weight: 700;
-          color: #111827;
-          margin-top: 2rem;
-          margin-bottom: 1rem;
-        }
-
-        .terms-content p {
-          color: #4b5563;
-          margin-bottom: 1rem;
-          line-height: 1.75;
-        }
-
-        .terms-content ul {
-          list-style-type: disc;
-          padding-left: 1.5rem;
-          margin-bottom: 1rem;
-        }
-
-        .terms-content li {
-          color: #4b5563;
-          margin-bottom: 0.5rem;
-          line-height: 1.75;
-        }
-
-        .terms-content strong {
-          font-weight: 600;
-          color: #111827;
-        }
-
-        .terms-content br {
-          margin-bottom: 1rem;
-        }
-      `}</style>
     </div>
   );
 } 
