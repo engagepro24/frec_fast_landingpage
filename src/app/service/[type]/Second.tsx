@@ -1,9 +1,12 @@
 import React from "react";
 import tick from "../../../../public/tick.png";
-import man from "../../../../public/man.png";
 import drive from "../../../../public/drive.png";
 import time from "../../../../public/time.png";
 import Image from "next/image";
+import service_bike from "../../../../public/service_bike.png";
+import service_parcel from "../../../../public/service_parcel.png";
+import service_auto from "../../../../public/service_auto.jpeg";
+import service_car from "../../../../public/service_car.jpeg";
 
 const cardData = [
   {
@@ -25,10 +28,10 @@ const cardData = [
 ];
 interface FirstProps {
   type: string;
-  serviceImage?: string;
+  serviceImage?: any;
 }
 
-const Second: React.FC<FirstProps> = ({ type }) => {
+const Second: React.FC<FirstProps> = ({ type, serviceImage }) => {
   return (
     <section className="bg-[#10041F] flex items-center justify-center p-4 md:p-10">
       <div className="w-full max-w-6xl">
@@ -61,7 +64,7 @@ const Second: React.FC<FirstProps> = ({ type }) => {
           <div className="relative bg-gradient-to-b from-[#7544A6] to-[#411B66] border rounded-2xl h-[270px] w-[400px]">
             <div className="absolute bottom-0 z-10">
               <Image
-                src={man}
+                src={serviceImage}
                 alt="man"
                 width={250}
                 height={250}

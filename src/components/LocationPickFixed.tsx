@@ -1,12 +1,12 @@
 "use client";
 import React, { useState, useRef } from "react";
-import { LoadScript, StandaloneSearchBox, GoogleMap, Marker } from "@react-google-maps/api";
+import { StandaloneSearchBox, GoogleMap, Marker, useJsApiLoader, Libraries } from "@react-google-maps/api";
 import Image from "next/image";
 
 import greenmap from "../../public/greenmap.png";
 import redmap from "../../public/redmap.png";
 
-const libraries: ("places")[] = ["places"];
+const libraries: Libraries = ["places"];
 const containerStyle = {
   width: "100%",
   height: "400px",
@@ -18,6 +18,11 @@ const center = {
 };
 
 const LocationPickFixed = () => {
+  const { isLoaded } = useJsApiLoader({
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "AIzaSyA8G4zHnAyp4d_jTxyD59kXbRmdyZQcoEw",
+    libraries,
+  });
+
   const [pickup, setPickup] = useState<{ address: string; lat: number | null; lng: number | null }>({
     address: "",
     lat: null,
@@ -31,7 +36,6 @@ const LocationPickFixed = () => {
 
   const pickupRef = useRef<any>(null);
   const dropRef = useRef<any>(null);
-  let googlekey ="AIzaSyA8G4zHnAyp4d_jTxyD59kXbRmdyZQcoEw"
 
   const handlePickupPlacesChanged = () => {
     if (pickupRef.current) {
@@ -59,8 +63,12 @@ const LocationPickFixed = () => {
     }
   };
 
+  if (!isLoaded) {
+    return <div>Loading...</div>;
+  }
+
   return (
-    <LoadScript googleMapsApiKey={googlekey} libraries={libraries}>
+    <>
       {/* Top custom styled search inputs */}
       <div className="flex justify-center mt-6">
         <div className="flex flex-col md:flex-row items-center gap-4">
@@ -168,7 +176,7 @@ const LocationPickFixed = () => {
           )} */}
       {/* </GoogleMap> */}
       {/* </div> */}
-    </LoadScript>
+    </>
   );
 };
 
