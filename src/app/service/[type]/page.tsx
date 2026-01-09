@@ -9,7 +9,7 @@ import { useParams } from 'next/navigation'
 
 
 import service_bike from '../../../../public/service_bike.png'
-import service_auto from '../../../../public/service_auto_imresizer.png'
+import service_auto from '../../../../public/service_auto.png'
 import service_car from '../../../../public/service_car.png'
 import service_parcel from '../../../../public/service_parcel.png'
 
