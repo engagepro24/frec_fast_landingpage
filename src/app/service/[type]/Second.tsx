@@ -3,6 +3,10 @@ import tick from "../../../../public/tick.png";
 import drive from "../../../../public/drive.png";
 import time from "../../../../public/time.png";
 import Image from "next/image";
+import service_bike from "../../../../public/service_bike.png";
+import service_parcel from "../../../../public/service_parcel.png";
+import service_auto from "../../../../public/service_auto.jpeg";
+import service_car from "../../../../public/service_car.jpeg";
 
 const cardData = [
   {
@@ -58,18 +62,17 @@ const Second: React.FC<FirstProps> = ({ type, serviceImage }) => {
           </div>
 
           <div className="relative bg-gradient-to-b from-[#7544A6] to-[#411B66] border rounded-2xl h-[270px] w-[400px]">
-            <div className="absolute bottom-0  z-10">
-            {/* <div className="absolute bottom-0 z-10"> */}
+            <div className="absolute bottom-0 z-10">
               <Image
                 src={serviceImage}
                 alt="man"
-                // width={250}
-                // height={290}
-                // className="object-cover"
+                width={250}
+                height={250}
+                className="object-cover"
               />
-            </div>
+            {/* </div> */}
 
-           <div className="absolute right-2 bottom-4 z-10">
+            {/* <div className="absolute right-2 bottom-4 z-10">
               <Image
                 src={drive}
                 alt="motorcycle helmet"
@@ -78,7 +81,7 @@ const Second: React.FC<FirstProps> = ({ type, serviceImage }) => {
                 className="object-cover"
               />
             </div>
-  {/*
+
             <div className="absolute -top-10 right-2 z-20">
               <div className="flex items-center gap-3">
                 <Image src={time} alt="time" width={220} height={220} />

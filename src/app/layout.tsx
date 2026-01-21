@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   title: "Frec - Ride Sharing App",
   description: "Your trusted ride-sharing platform for safe and convenient transportation",
   icons:{
-    icon:"/logo2.png",
-    shortcut:"/logo2.png",
-    apple:"/logo2.png"
+    icon:"/app_logo.png",
+    shortcut:"/app_logo.png",
+    apple:"/app_logo.png"
   }
 };
 
