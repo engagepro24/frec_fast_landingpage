@@ -70,7 +70,7 @@ const Second: React.FC<FirstProps> = ({ type, serviceImage }) => {
                 height={250}
                 className="object-cover"
               />
-            {/* </div> */}
+            </div>
 
             {/* <div className="absolute right-2 bottom-4 z-10">
               <Image
