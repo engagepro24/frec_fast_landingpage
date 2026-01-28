@@ -33,7 +33,7 @@ interface FirstProps {
 
 const Second: React.FC<FirstProps> = ({ type, serviceImage }) => {
   return (
-    <section className="bg-[#10041F] flex items-center justify-center p-4 md:p-10">
+    <section className="bg-[#10041F] flex items-center justify-center p-4 md:p-10 overflow-hidden">
       <div className="w-full max-w-6xl">
         <div className="flex flex-col md:flex-row items-center justify-center gap-10">
           <div className="text-center md:text-left max-w-md">
