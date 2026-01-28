@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
         hostname: "tgps-new-2025.s3.ap-south-1.amazonaws.com",
       },
     ],
+    qualities: [75, 100],
   },
 };
 

@@ -72,7 +72,7 @@ const Second: React.FC<FirstProps> = ({ type, serviceImage }) => {
               />
             </div>
 
-            {/* <div className="absolute right-2 bottom-4 z-10">
+            <div className="absolute right-2 bottom-4 z-10">
               <Image
                 src={drive}
                 alt="motorcycle helmet"
@@ -81,7 +81,7 @@ const Second: React.FC<FirstProps> = ({ type, serviceImage }) => {
                 className="object-cover"
               />
             </div>
-
+{/* 
             <div className="absolute -top-10 right-2 z-20">
               <div className="flex items-center gap-3">
                 <Image src={time} alt="time" width={220} height={220} />
